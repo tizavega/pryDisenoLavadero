@@ -194,5 +194,30 @@ namespace pryDisenoLavadero
         {
 
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            // Limpiar datos del cliente
+            txtNombre.Clear();
+            txtPatente.Clear();
+
+            // Limpiar selecciones
+            cboServicio.SelectedIndex = -1;
+            cboCantidad.SelectedIndex = -1;
+
+            // Desmarcar opciones
+            rdbNormal.Checked = false;
+            rdbExpress.Checked = false;
+            chkCliente.Checked = false;
+
+            // Limpiar importes
+            lblSubtotal.Text = "0,00";
+            lblRecargo.Text = "0,00";
+            lblDescuento.Text = "0,00";
+            lblTotal.Text = "0,00";
+
+            // Volver al campo nombre
+            txtNombre.Focus();
+        }
     }
 }
