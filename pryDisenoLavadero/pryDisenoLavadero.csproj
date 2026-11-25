@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>icono-lavado-autos-simbolo-servicio-limpieza-automatica-burbujas-agua-jabon-estilo-neumorfismo-vector-eps-10_532800-844.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icono-lavado-autos-simbolo-servicio-limpieza-automatica-burbujas-agua-jabon-estilo-neumorfismo-vector-eps-10_532800-844.ico" />
+  </ItemGroup>
+
+</Project>
